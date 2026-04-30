@@ -99,9 +99,9 @@ const botonBloqueDos= document.getElementById("botonBloqueDos");
                     {nombre:'Luz', nota:4}
                 ];
                 
-                //.--------------------------------------------//
                 console.log(alumnos.find(alumno => alumno.nota > 6));
-            //ejercicio4//
+            //.--------------------------------------------//
+                //ejercicio4//
                 const premios= ['Oro', 'Plata', 'Bronce'];
                 //.--------------------------------------------//
                 console.log(premios.findIndex(premio => premio==='plata'));
